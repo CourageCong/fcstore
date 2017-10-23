@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 定义矩形rectangle -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+
+        <shape  android:shape="rectangle">
+
+            <solid android:color="@color/md_indigo_900" />
+
+            <!-- 定义边框颜色 -->
+            <stroke android:width="0.1dp" android:color="@color/md_indigo_500" />
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp" />
+
+
+        </shape>
+
+    </item>
+    <item android:state_enabled="false">
+        <shape  android:shape="rectangle">
+
+            <solid android:color="@color/gray_btn_bg" />
+
+            <!-- 定义边框颜色 -->
+            <stroke android:width="0.1dp" android:color="@color/gray_btn_bg" />
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp" />
+
+        </shape>
+    </item>
+    <item>
+
+        <shape  android:shape="rectangle">
+
+            <solid android:color="@color/md_indigo_900" />
+
+            <!-- 定义边框颜色 -->
+            <stroke android:width="0.1dp" android:color="@color/md_indigo_900" />
+
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp" />
+
+        </shape>
+
+    </item>
+</selector>

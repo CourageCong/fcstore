@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_welcom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context="com.fc.fcstroe.ui.activity.WelcomActivity">
+    <com.eftimoff.androipathview.PathView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pathView"
+        android:layout_marginTop="-20dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:pathColor="@android:color/holo_red_light"
+        app:svg="@raw/logo_cniao5"
+        app:pathWidth="5dp"/>
+</LinearLayout>
